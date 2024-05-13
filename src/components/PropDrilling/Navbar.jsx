@@ -3,9 +3,9 @@ import { FaReact } from "react-icons/fa";
 
 function Navbar({ props }) {
   return (
-    <div className="container mx-auto my-8 flex justify-between border-b-2 border-black">
+    <div className="container mx-auto px-8 pt-8 pb-3 flex justify-between border-b-2 border-black">
       <h1 className="text-2xl sm:text-3xl text-black font-bold flex mt-1">
-        Prop Drilling - React
+        Props + State
         {
           <span className="mt-1 ml-2">
             <FaReact />
